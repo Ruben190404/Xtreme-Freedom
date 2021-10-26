@@ -47,8 +47,8 @@ nav {
 }
 nav ul {
     text-align: center;
-    width: 100%;
-    padding-left: 0;
+    width: 99%;
+    padding-left: 1%;
     float: 1;
     margin: 0;
 }
@@ -59,18 +59,25 @@ li {
 }
 nav ul li {
     list-style-type: none;
-    width: 25%;
-    height: 50.4px;
-    background-color: #04AA6D;
+    width: 33%;
+    height: 50px;
+    background: #04AA6D;
 }
 a {
     text-decoration: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
 }
 
 nav ul li a {
-    font-size: 16px;
-    color: #f1f1f1;
+    background-color: #04AA6D;
+    color: white;
     padding: 16px;
+    font-size: 16px;
+    border: none;
 }
 nav ul li a:hover,
 nav ul li a:focus {
@@ -95,14 +102,17 @@ footer {
     width: 100%;
     background: #04AA6D;
     text-align: center;
+    height: 76px;
 }
 
 #left{
     color: white;
     position: absolute;
-    left: 0;
+    left: 3px;
 }
 #center {
     display: flex;
     justify-content: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }

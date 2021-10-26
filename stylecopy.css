@@ -1,0 +1,118 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04AA6D;
+    justify-content: space-around;
+    display: flex;
+}
+
+li {
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    width: 20%;
+    text-align: center;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body{
+    background-image: url(https://images3.alphacoders.com/103/thumb-1920-103147.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    float: 0;
+    width: 100%;
+    background: #04AA6D;
+    text-align: center;
+    height: 56px;
+}
+
+#left{
+    color: white;
+    position: absolute;
+    left: 3px;
+    top: 8px;
+}
+#center {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.info {
+    width: 70%;
+    border-style: double;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    background: rgba(35, 68, 253, 0.603)
+}
+
+.info h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.info p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vakanties {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 5px;
+    width: 30%;
+}
