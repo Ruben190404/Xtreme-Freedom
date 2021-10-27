@@ -1,0 +1,28 @@
+*{
+    cursor: url('https://cdn.discordapp.com/attachments/888145564573782046/902891666371932170/ltt1.png'), auto;
+}
+
+body{
+    background-image: url('images/ltt.png'), linear-gradient( orange , yellow, green, cyan, blue, violet);
+    background-size: 30px;
+    overflow: hidden;
+}
+
+#head{
+margin-left: 28%;
+}
+
+.lttcon{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#lttdrop{
+    animation:drop 2s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes drop{
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(360deg)}
+}
