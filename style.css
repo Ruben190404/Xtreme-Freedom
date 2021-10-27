@@ -142,3 +142,11 @@ footer {
     cursor: url('images/cursor.png'), default;
     cursor: url('images/cursor.png'), pointer;/*custom cursor*/
  }
+
+#lttb{
+    height: 5px;
+    width: 5px;
+    position: fixed;
+    bottom: 11%;
+    left: 5px;
+}
