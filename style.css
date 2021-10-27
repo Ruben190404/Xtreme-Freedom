@@ -58,7 +58,7 @@ li.dropdown {
 }
 
 body{
-    background-image: url(https://images3.alphacoders.com/103/thumb-1920-103147.jpg);
+    background-image: linear-gradient(green, yellow, lightgreen);
     background-size: auto;
     background-repeat: no-repeat;
     margin: 0;
@@ -130,10 +130,14 @@ footer {
     color: rgb(255, 255, 113);
 }
 
-#ltt{
-    position: absolute;
+#lttb{
+    background-color: red;
+    height: 5px;
+    width: 5px;
+    position: relative;
+    top: -100px;
+    left: 5px;
 }
-
 * {
     cursor: url('images/cursor.png'), default;
     cursor: url('images/cursor.png'), pointer;/*custom cursor*/
