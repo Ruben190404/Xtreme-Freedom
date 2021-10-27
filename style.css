@@ -2,10 +2,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    top: 0;
+    width: 100%;
     overflow: hidden;
     background-color: #04AA6D;
     justify-content: space-around;
     display: flex;
+    position: fixed;
 }
 
 li {
@@ -33,7 +36,7 @@ li.dropdown {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
     min-width: 20%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -93,7 +96,7 @@ footer {
     border-radius: 5px;
     margin-left: 213px;
     margin-right: 15%;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 10px;
     background: rgba(35, 68, 253, 0.603)
 }
@@ -112,19 +115,19 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 .vakantie {
     border: 2px solid red;
-    background-color: rgb(200, 0, 0, 0.3);
+    background-color: rgba(247, 86, 86, 0.699);
+    box-shadow: 0 2px 6px 2px rgba(0,0,0,0.2);
     border-radius: 5px;
     width: 350px;
     height: 350px;
     margin-left: 30px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.486);
+    color: rgb(255, 255, 113);
 }
 
 #ltt{
@@ -132,5 +135,6 @@ footer {
 }
 
 * {
-    cursor: url('images/cursor.png'), auto;
+    cursor: url('images/cursor.png'), default;
+    cursor: url('images/cursor.png'), pointer;/*custom cursor*/
  }
