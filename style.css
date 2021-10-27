@@ -62,12 +62,9 @@ body{
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    right: 0;
-    left: 0;
-    margin: 0;
-    float: 0;
+    float: left;
     width: 100%;
     background: #04AA6D;
     text-align: center;
@@ -91,12 +88,13 @@ footer {
 }
 
 .info {
-    width: 70%;
+    width: 1118px;
     border-style: double;
     border-radius: 5px;
-    margin-left: 15%;
+    margin-left: 213px;
     margin-right: 15%;
     margin-top: 30px;
+    margin-bottom: 10px;
     background: rgba(35, 68, 253, 0.603)
 }
 
@@ -111,9 +109,25 @@ footer {
 }
 
 .vakanties {
-    float: left;
-    border: 2px solid red;
-    border-radius: 5px;
-    margin: 5px;
-    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+.vakantie {
+    border: 2px solid red;
+    background-color: rgb(200, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#ltt{
+    position: absolute;
+}
+
+* {
+    cursor: url('images/ltt1.png'), auto;
+ }
