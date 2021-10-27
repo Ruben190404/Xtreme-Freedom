@@ -74,6 +74,10 @@ footer {
     height: 56px;
 }
 
+.links{
+    margin-left: 20px;
+}
+
 #left{
     color: white;
     position: absolute;
@@ -107,12 +111,9 @@ footer {
 }
 
 .vakanties {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
+    float: left;
     border: 2px solid red;
     border-radius: 5px;
     margin: 5px;
-    width: 30%;
+    width: 300px;
 }
