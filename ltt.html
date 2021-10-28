@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <audio src="bgm/ltt.mp3" loop="true" hidden="true" autostart="true">als je dit leest doet de bgm het niet</audio>
     <link rel="stylesheet" href="ltt.css">
     <title>lttstore.com</title>
     <link rel="icon" href="https://cdn.discordapp.com/attachments/888145564573782046/902891666371932170/ltt1.png">
 </head>
 <body>
-    <div id="head"><img src="images/ltt2.png"></div>
+    <audio id="audio" src="bgm/ltt.mp3" autoplay loop>als je dit leest doet de bgm het niet</audio>
+    <div id="button" onclick="play()"></div>
+    <div id="head"><img src="images/ltt2.png" onclick="play()"></div>
     <div id="lttdrop"><img src="images/ltt.png"></div>
     <div id="lttdrop"><img src="images/ltt.png"></div>
     <div id="lttdrop"><img src="images/ltt.png"></div>
 </body>
+<script>
+    function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }
+</script>
 </html>
