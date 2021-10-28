@@ -64,6 +64,13 @@ body{
     margin: 0;
 }
 
+#logo{
+    position: fixed;
+    top: 1px;
+    left: 25px;
+}
+
+
 footer {
     position: fixed;
     bottom: 0;
@@ -91,14 +98,18 @@ footer {
 }
 
 .info {
-    width: 1118px;
+    width: 80%;
     border-style: double;
     border-radius: 5px;
-    margin-left: 213px;
-    margin-right: 15%;
     margin-top: 60px;
     margin-bottom: 10px;
     background: rgba(35, 68, 253, 0.603)
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info h1 {
@@ -117,27 +128,30 @@ footer {
     flex-wrap: wrap;
     margin-bottom: 60px;
 }
+
+.vakanties h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.vakantie p {
+    margin-top: 5px;
+}
+
 .vakantie {
     border: 2px solid red;
     background-color: rgba(247, 86, 86, 0.699);
     box-shadow: 0 2px 6px 2px rgba(0,0,0,0.2);
     border-radius: 5px;
     width: 350px;
-    height: 350px;
-    margin-left: 30px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 20px;
     text-align: center;
     color: rgb(255, 255, 113);
 }
 
-#lttb{
-    background-color: red;
-    height: 5px;
-    width: 5px;
-    position: relative;
-    top: -100px;
-    left: 5px;
-}
 * {
     cursor: url('images/cursor.png'), default;
     cursor: url('images/cursor.png'), pointer;/*custom cursor*/
