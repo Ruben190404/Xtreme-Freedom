@@ -64,6 +64,13 @@ body{
     margin: 0;
 }
 
+#logo{
+    position: fixed;
+    top: 1px;
+    left: 25px;
+}
+
+
 footer {
     position: fixed;
     bottom: 0;
@@ -130,14 +137,6 @@ footer {
     color: rgb(255, 255, 113);
 }
 
-#lttb{
-    background-color: red;
-    height: 5px;
-    width: 5px;
-    position: relative;
-    top: -100px;
-    left: 5px;
-}
 * {
     cursor: url('images/cursor.png'), default;
     cursor: url('images/cursor.png'), pointer;/*custom cursor*/
