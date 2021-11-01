@@ -103,7 +103,8 @@ footer {
     border-radius: 5px;
     margin-top: 60px;
     margin-bottom: 10px;
-    background: rgba(35, 68, 253, 0.603)
+    background: rgba(35, 68, 253, 0.603);
+    text-align: center;
 }
 
 main {
