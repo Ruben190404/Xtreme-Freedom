@@ -1,3 +1,7 @@
+html{
+    min-height: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -97,59 +101,10 @@ footer {
     margin-top: 2px;
 }
 
-.info {
-    width: 80%;
-    border-style: double;
-    border-radius: 5px;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    background: rgba(35, 68, 253, 0.603);
-    text-align: center;
-}
-
 main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.info h1 {
-    text-align: center;
-    font-family: sans-serif;
-}
-
-.info p {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.vakanties {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
-}
-
-.vakanties h2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.vakantie p {
-    margin-top: 5px;
-}
-
-.vakantie {
-    border: 2px solid red;
-    background-color: rgba(247, 86, 86, 0.699);
-    box-shadow: 0 2px 6px 2px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    width: 350px;
-    height: 350px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: rgb(255, 255, 113);
 }
 
 * {
@@ -164,3 +119,11 @@ main {
     bottom: 11%;
     left: 5px;
 }
+form{
+    text-align: center;
+}
+fieldset{
+    margin-top: 50px;
+    justify-content: center;
+}
+
