@@ -1,3 +1,9 @@
+img {
+    max-width: 100%;
+}
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,7 +11,7 @@ ul {
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: #04AA6D;
+    background-color: #dd1d87;
     justify-content: space-around;
     display: flex;
     position: fixed;
@@ -27,7 +33,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: green;
+    background-color: rgb(128, 126, 0);
 }
 
 li.dropdown {
@@ -58,7 +64,7 @@ li.dropdown {
 }
 
 body{
-    background-image: linear-gradient(green, yellow, lightgreen);
+    background-image: linear-gradient(hotpink,yellow);
     background-size: auto;
     background-repeat: no-repeat;
     margin: 0;
@@ -70,13 +76,12 @@ body{
     left: 25px;
 }
 
-
 footer {
     position: fixed;
     bottom: 0;
     float: left;
     width: 100%;
-    background: #04AA6D;
+    background: #dd1d87;
     text-align: center;
     height: 56px;
 }
@@ -98,18 +103,21 @@ footer {
 }
 
 .info {
-    width: 80%;
+    width: calc(100% - 30px);
     border-style: double;
     border-radius: 5px;
     margin-top: 60px;
     margin-bottom: 10px;
-    background: rgba(35, 68, 253, 0.603)
+    background: rgba(247, 86, 86, 0.699);
+    text-align: center;
 }
 
 main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .info h1 {
@@ -124,7 +132,6 @@ main {
 
 .vakanties {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 60px;
 }
@@ -135,7 +142,7 @@ main {
 }
 
 .vakantie p {
-    margin-top: 5px;
+    margin-top: 5px, 5px, 5px, 5px;
 }
 
 .vakantie {
@@ -143,13 +150,14 @@ main {
     background-color: rgba(247, 86, 86, 0.699);
     box-shadow: 0 2px 6px 2px rgba(0,0,0,0.2);
     border-radius: 5px;
-    width: 350px;
+    width: calc(33.33% - 34px);
     height: auto;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 20px;
     text-align: center;
     color: rgb(255, 255, 113);
+
 }
 
 * {
@@ -163,4 +171,16 @@ main {
     position: fixed;
     bottom: 11%;
     left: 5px;
+}
+
+@media screen and (max-width: 980px) {
+    .vakantie {
+        width: calc(50% - 34px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .vakantie {
+        width: 100%;
+    }
 }
