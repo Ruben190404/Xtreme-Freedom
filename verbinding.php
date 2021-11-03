@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verbindings Pagina</title>
-    <link rel="stylesheet" href="verbinding.css">
+    <link rel="stylesheet" href="reis5.css">
     <link rel="icon" href="images/logo_icon.png">
 </head>
 
@@ -48,7 +48,7 @@
                 <input type="checkbox" name="reis4" id="check" value="4"><br>
                 Reis 5:
                 <input type="checkbox" name="reis5" id="check" value="4"><br><br>
-                <input type="submit" id="text" class="submit" Verbinden">
+                <input type="submit" id="text" class="submit" value="verbinden">
             </fieldset>
         </form>
         <div id='lttb' onclick="location.href='ltt.html';">.</div>
