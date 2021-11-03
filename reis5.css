@@ -229,7 +229,8 @@ input {
 }
 
 .submit:hover{
-    background-color: black;
+    background-image: linear-gradient(to left, hotpink, yellow, hotpink);
+    color: hotpink;
 }
 
 ::placeholder{
