@@ -28,7 +28,7 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: white;
+    color: rgb(255, 255, 113);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -95,7 +95,7 @@ footer {
 }
 
 #left{
-    color: white;
+    color: rgb(255, 255, 113);
     position: absolute;
     left: 3px;
     top: 8px;
@@ -202,6 +202,7 @@ fieldset {
     height: auto;
     border-radius: 10px;
     background-color: rgba(247, 86, 86, 0.699);
+    color: rgb(255, 255, 113);
 }
 
 input {
@@ -211,7 +212,8 @@ input {
 
 #text{
     background-image: linear-gradient(to left, yellow, hotpink, yellow);
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 2px 2px 2px purple;
+    border: 1px solid purple;
     margin: 2px;
     width: 400px;
     text-align: center;
