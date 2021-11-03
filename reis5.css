@@ -203,6 +203,7 @@ fieldset {
     border-radius: 10px;
     background-color: rgba(247, 86, 86, 0.699);
     color: rgb(255, 255, 113);
+    font-size: 17px;
 }
 
 input {
@@ -233,4 +234,8 @@ input {
 
 ::placeholder{
     color: rgb(255, 255, 113);
+}
+
+label{
+    font-size: 20px;
 }
