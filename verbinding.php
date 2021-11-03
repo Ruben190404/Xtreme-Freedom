@@ -54,7 +54,7 @@
         <div id='lttb' onclick="location.href='ltt.html';">.</div>
     </main>
     <footer>
-        <div id="copy">Copyright &copy;2021 <br> Ontworpen door: SD21-6</div>
+        <div id="left">Copyright &copy;2021 <br> Ontworpen door: SD21-6</div>
         <div id="center">
             <a class="links" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img
                     src="https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Twitter.png" width="50px"
