@@ -9,7 +9,7 @@ ul {
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: #04AA6D;
+    background-color: #dd1d87;
     justify-content: space-around;
     display: flex;
     position: fixed;
@@ -31,7 +31,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: green;
+    background-color: rgb(128, 126, 0);
 }
 
 li.dropdown {
@@ -62,7 +62,7 @@ li.dropdown {
 }
 
 body{
-    background-image: linear-gradient(green, yellow, lightgreen);
+    background-image: linear-gradient(hotpink,yellow);
     background-size: auto;
     background-repeat: no-repeat;
     margin: 0;
@@ -80,7 +80,7 @@ footer {
     bottom: 0;
     float: left;
     width: 100%;
-    background: #04AA6D;
+    background: #dd1d87;
     text-align: center;
     height: 56px;
 }
@@ -105,6 +105,7 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 * {
@@ -119,11 +120,25 @@ main {
     bottom: 11%;
     left: 5px;
 }
-form{
-    text-align: center;
-}
-fieldset{
+fieldset {
     margin-top: 50px;
-    justify-content: center;
+    width: 700px;
+    text-align: center;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgba(247, 86, 86, 0.699);
 }
 
+input {
+    border-radius: 0px;
+}
+
+#text{
+    box-shadow: 0px 0px 1px black;
+    margin: 2px;
+    width: 200px;
+}
+
+.submit:hover{
+    background-color: black;
+}

@@ -31,12 +31,12 @@
         </div>
     </nav>
     <main>
-        <form name="verbinding" action="mailto: nepaccount@gmail.wow"></form></form> method="post">
+        <form name="verbinding" action="mailto: nepaccount@gmail.wow" method="post">
             <fieldset>
-                <input required type="text" id="naam" name="naam" placeholder="Volledige Naam..."><br>
-                <input required type="number" id="tel" name="tel" placeholder="Telefoonnummer..."><br>
-                <input required type="email" id="email" name="email" placeholder="Email..."><br>
-                <input required type="text" id="adres" name="adres" placeholder="Adres..."><br><br>
+                <input required type="text" id="text" name="naam" placeholder="Volledige Naam..."><br>
+                <input required type="number" id="text" name="tel" placeholder="Telefoonnummer..."><br>
+                <input required type="email" id="text" name="email" placeholder="Email..."><br>
+                <input required type="text" id="text" name="adres" placeholder="Adres..."><br><br><br>
                 <label for="reisen">Welke reis(en) lijkt u het leukste?</label><br>
                 Reis 1:
                 <input type="checkbox" name="reis1" id="check" value="1"><br>
@@ -47,10 +47,11 @@
                 Reis 4:
                 <input type="checkbox" name="reis4" id="check" value="4"><br>
                 Reis 5:
-                <input type="checkbox" name="reis5" id="check" value="4"><br>
-                <input type="submit" value="Verbinden">
+                <input type="checkbox" name="reis5" id="check" value="4"><br><br>
+                <input type="submit" id="text" class="submit" Verbinden">
             </fieldset>
         </form>
+        <div id='lttb' onclick="location.href='ltt.html';">.</div>
     </main>
     <footer>
         <div id="left">Copyright &copy;2021 <br> Ontworpen door: SD21-6</div>
