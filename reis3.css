@@ -1,3 +1,7 @@
+html{
+    min-height: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,7 +9,7 @@ ul {
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: #04AA6D;
+    background-color: #dd1d87;
     justify-content: space-around;
     display: flex;
     position: fixed;
@@ -27,7 +31,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: green;
+    background-color: rgb(128, 126, 0);
 }
 
 li.dropdown {
@@ -58,7 +62,7 @@ li.dropdown {
 }
 
 body{
-    background-image: linear-gradient(green, yellow, lightgreen);
+    background-image: linear-gradient(hotpink,yellow);
     background-size: auto;
     background-repeat: no-repeat;
     margin: 0;
@@ -76,7 +80,7 @@ footer {
     bottom: 0;
     float: left;
     width: 100%;
-    background: #04AA6D;
+    background: #dd1d87;
     text-align: center;
     height: 56px;
 }
@@ -103,7 +107,7 @@ footer {
     border-radius: 5px;
     margin-top: 60px;
     margin-bottom: 10px;
-    background: rgba(35, 68, 253, 0.603)
+    background: rgba(247, 86, 86, 0.699)
 }
 
 main {
@@ -120,6 +124,7 @@ main {
 .info p {
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
 }
 
 .vakanties {
@@ -144,8 +149,9 @@ main {
     box-shadow: 0 2px 6px 2px rgba(0,0,0,0.2);
     border-radius: 5px;
     width: 350px;
-    height: 350px;
-    margin-left: 30px;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 20px;
     text-align: center;
     color: rgb(255, 255, 113);
