@@ -145,7 +145,6 @@ main {
 }
 
 .vakantie p {
-    margin-top: 5px, 5px, 5px, 5px;
     font-family: 'Crimson Pro', serif;
 }
 
@@ -159,6 +158,7 @@ main {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 20px;
+    padding-bottom: 8px;
     text-align: center;
     color: rgb(255, 255, 113);
 
