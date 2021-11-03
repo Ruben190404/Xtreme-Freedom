@@ -37,24 +37,24 @@
                 <input required type="number" id="text" name="tel" placeholder="Telefoonnummer..."><br>
                 <input required type="email" id="text" name="email" placeholder="Email..."><br>
                 <input required type="text" id="text" name="adres" placeholder="Adres..."><br><br><br>
-                <label for="reisen">Welke reis(en) lijkt u het leukste?</label><br>
+                <label for="reizen">Welke reis lijkt u het leukst?</label><br>
                 Reis 1:
-                <input type="checkbox" name="reis1" id="check" value="1"><br>
+                <input type="radio" name="reizen" id="check" value="1"><br>
                 Reis 2:
-                <input type="checkbox" name="reis2" id="check" value="2"><br>
+                <input type="radio" name="reizen" id="check" value="2"><br>
                 Reis 3:
-                <input type="checkbox" name="reis3" id="check" value="3"><br>
+                <input type="radio" name="reizen" id="check" value="3"><br>
                 Reis 4:
-                <input type="checkbox" name="reis4" id="check" value="4"><br>
+                <input type="radio" name="reizen" id="check" value="4"><br>
                 Reis 5:
-                <input type="checkbox" name="reis5" id="check" value="4"><br><br>
-                <input type="submit" id="text" class="submit" value="verbinden">
+                <input type="radio" name="reizen" id="check" value="4"><br><br>
+                <input type="submit" class="submit" value="Verbinden">
             </fieldset>
         </form>
         <div id='lttb' onclick="location.href='ltt.html';">.</div>
     </main>
     <footer>
-        <div id="left">Copyright &copy;2021 <br> Ontworpen door: SD21-6</div>
+        <div id="copy">Copyright &copy;2021 <br> Ontworpen door: SD21-6</div>
         <div id="center">
             <a class="links" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img
                     src="https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Twitter.png" width="50px"
@@ -69,3 +69,43 @@
     </footer>
 </body>
 </html>
+<!---->
+<!--fieldset {-->
+<!--padding-top: 30px;-->
+<!--padding-bottom: 30px;-->
+<!--margin-top: 150px;-->
+<!--width: 700px;-->
+<!--text-align: center;-->
+<!--height: auto;-->
+<!--border-radius: 10px;-->
+<!--background-color: rgba(247, 86, 86, 0.699);-->
+<!--}-->
+<!---->
+<!--input {-->
+<!--border-radius: 0px;-->
+<!--color: rgb(255, 255, 113);-->
+<!--}-->
+<!---->
+<!--#text{-->
+<!--background-image: linear-gradient(to left, yellow, hotpink, yellow);-->
+<!--box-shadow: 0px 0px 1px black;-->
+<!--margin: 2px;-->
+<!--width: 400px;-->
+<!--text-align: center;-->
+<!--}-->
+<!---->
+<!--.submit{-->
+<!--background-image: linear-gradient(to left, yellow, hotpink, yellow);-->
+<!--box-shadow: 0px 0px 1px black;-->
+<!--margin: 2px;-->
+<!--width: 200px;-->
+<!--text-align: center;-->
+<!--}-->
+<!---->
+<!--.submit:hover{-->
+<!--background-color: black;-->
+<!--}-->
+<!---->
+<!--::placeholder{-->
+<!--color: rgb(255, 255, 113);-->
+<!--}-->
