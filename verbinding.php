@@ -13,16 +13,16 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Thuis</a></li>
-            <li><a href="verbinding.html">Verbindings pagina</a></li>
+        <li><a href="index.html">Thuis</a></li>
+            <li><a href="verbinding.php">Verbindings pagina</a></li>
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn">Avonturen</a>
                 <div class="dropdown-content">
-                    <a href="reis_1.html">Avontuur 1</a>
-                    <a href="reis_2.html">Avontuur 2</a>
-                    <a href="reis_3.html">Avontuur 3</a>
+                    <a href="reis_1.html">Rondreis door Amerika</a>
+                    <a href="reis_2.html">Luchtballon door Engeland</a>
+                    <a href="reis_3.html">Verken Kakslauttanen in Finland</a>
                     <a href="reis_4.html">Avontuur 4</a>
-                    <a href="reis_5.html">Avontuur 5</a>
+                    <a href="reis_5.html">Wijntherapie met Edgar</a>
                 </div>
             </li>
         </ul>
