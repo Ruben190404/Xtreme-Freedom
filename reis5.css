@@ -2,8 +2,6 @@ img {
     max-width: 100%;
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,6 +28,7 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Crimson Pro', serif;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -55,6 +54,7 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: center;
+    font-family: 'Crimson Pro', serif;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
@@ -95,6 +95,7 @@ footer {
     position: absolute;
     left: 3px;
     top: 8px;
+    font-family: 'Crimson Pro', serif;
 }
 #center {
     display: flex;
@@ -122,12 +123,13 @@ main {
 
 .info h1 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Crimson Pro', serif;
 }
 
 .info p {
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Crimson Pro', serif;
 }
 
 .vakanties {
@@ -139,10 +141,12 @@ main {
 .vakanties h2 {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-family: 'Crimson Pro', serif;
 }
 
 .vakantie p {
     margin-top: 5px, 5px, 5px, 5px;
+    font-family: 'Crimson Pro', serif;
 }
 
 .vakantie {
