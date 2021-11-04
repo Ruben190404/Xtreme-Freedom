@@ -48,7 +48,7 @@
                 <input type="radio" name="reizen" id="check" value="4"><br>
                 Reis 5:
                 <input type="radio" name="reizen" id="check" value="4"><br><br>
-                <input type="submit" class="submit" value="Verbinden">
+                <input type="submit" class="submit" value="Verbinden" onclick="alert('Dankuwel voor het verbinden met ons!')">
             </fieldset>
         </form>
         <div id='lttb' onclick="location.href='ltt.html';">.</div>
