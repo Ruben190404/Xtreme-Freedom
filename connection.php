@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verbindings Pagina</title>
+    <title>Connection page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/logo_icon.png">
 </head>
@@ -13,22 +13,26 @@
 <body>
     <nav>
         <ul>
-        <li><a href="index.html">Thuis</a></li>
-            <li><a href="verbinding.php">Verbindings pagina</a></li>
+        <li><a href="indexen.html">Home</a></li>
+            <li><a href="connection.php">Connection page</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Avonturen</a>
+                <a href="javascript:void(0)" class="dropbtn">Adventures</a>
                 <div class="dropdown-content">
-                    <a href="reis_1.html">Rondreis door Amerika</a>
-                    <a href="reis_2.html">Luchtballon door Engeland</a>
-                    <a href="reis_3.html">Verken Kakslauttanen in Finland</a>
-                    <a href="reis_4.html">Avontuur 4</a>
-                    <a href="reis_5.html">Wijntherapie met Edgar</a>
+                    <a href="reis_1en.html">Journey through America</a>
+                    <a href="reis_2en.html">Hot Air Balloon Through England</a>
+                    <a href="reis_3en.html">Explore Kakslauttanen in Finland</a>
+                    <a href="reis_4en.html">Adventure 4</a>
+                    <a href="reis_5en.html">Wine therapy with Edgar</a>
                 </div>
             </li>
         </ul>
         <div id="logo">
             <a href="index.html"><img src="images/logo.jpg" width="60px" height="44px"></a>
         </div>
+        <div id="button_nl">
+            <img src="images/button_nl.png" width="35px" height="auto"
+            onclick="location.href='verbinding.php'">
+            <br>Nederlands
     </nav>
     <main>
         <form name="verbinding" action="mailto: nepaccount@gmail.wow" method="post">

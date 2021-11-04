@@ -29,6 +29,12 @@
         <div id="logo">
             <a href="index.html"><img src="images/logo.jpg" width="60px" height="44px"></a>
         </div>
+        
+        <div id="button_en">
+            <img src="images/en.jpg" width="35px" height="auto"
+            onclick="location.href='connection.php'">
+            <br>English
+        </div>
     </nav>
     <main>
         <form name="verbinding" action="mailto: nepaccount@gmail.wow" method="post">
