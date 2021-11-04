@@ -93,7 +93,7 @@ body{
     position: fixed;
     top: 1px;
     right: 25px;
-    margin-right: 5px;
+    margin-right: 0px;
     color: rgb(255, 255, 113);
     text-align: center;
 }
@@ -129,7 +129,7 @@ footer {
     width: calc(100% - 30px);
     border-style: double;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 10px;
     background: rgba(247, 86, 86, 0.699);
     text-align: center;
@@ -214,11 +214,17 @@ main {
     }
 }
 
-/* @media screen and (max-width: 697) {
-.info {
-    margin-top: 50px;
+@media screen and (max-width: 697px) {
+    .info {
+        margin-top: 70px;
     }
-} */
+    #button_en {
+        margin-top: 70px;
+    }
+    #button_nl {
+        margin-top: 70px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .vakantie {
@@ -241,9 +247,9 @@ main {
     #left {
         max-width: 200px;
     }
-    /* .info {
-        margin-top: 50px;
-    } */
+    .info {
+        margin-top: 70px;
+    }
     .dropdown-content {
         min-width: none;
         width: 20px;
