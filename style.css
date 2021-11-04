@@ -111,7 +111,7 @@ footer {
     width: calc(100% - 30px);
     border-style: double;
     border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 10px;
     background: rgba(247, 86, 86, 0.699);
     text-align: center;
@@ -196,11 +196,11 @@ main {
     }
 }
 
-@media screen and (max-width: 781px) {
+/* @media screen and (max-width: 697) {
 .info {
-    margin-top: 80px;
+    margin-top: 50px;
     }
-}
+} */
 
 @media screen and (max-width: 600px) {
     .vakantie {
@@ -223,9 +223,9 @@ main {
     #left {
         max-width: 200px;
     }
-    .info {
-        margin-top: 80px;
-    }
+    /* .info {
+        margin-top: 50px;
+    } */
     .dropdown-content {
         min-width: none;
         width: 20px;
