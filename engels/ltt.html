@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ltt.css">
+    <title>lttstore.com</title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/888145564573782046/902891666371932170/ltt1.png">
+</head>
+<body>
+    <audio id="audio" src="bgm/ltt.mp3" autoplay loop>als je dit leest doet de bgm het niet</audio>
+    <div id="button" onclick="play()"></div>
+    <div id="head"><img src="images/ltt.png" onclick="play()" width="576px" height="720px"></div>
+    <div id="lttdrop"><img src="images/ltt.png"></div>
+    <div id="lttdrop2"></div>
+
+</body>
+<script>
+    function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }
+</script>
+</html>

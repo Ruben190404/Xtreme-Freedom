@@ -1,0 +1,44 @@
+*{
+    cursor: url('https://cdn.discordapp.com/attachments/888145564573782046/902891666371932170/ltt1.png'), auto;
+}
+
+body{
+    background: url('images/ltt.png'), #b95d00;
+    background-size: 30px;
+    overflow: hidden;
+}
+
+#head{
+    position: fixed;
+    margin-left: 28%;
+}
+
+.lttcon{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#lttdrop{
+    background-image: url("images/ltt.png");
+    background-repeat: repeat;
+    position: relative;
+    top: -1000px;
+    animation:drop 4s linear;
+    animation-iteration-count: infinite;
+    height: 10000vw;
+}
+
+@keyframes drop{
+    0%{transform:translatey(-1000px)}
+    100%{transform:translatey(1000px)}
+}
+
+#button{
+    position: fixed;
+    top: 50px;
+    left: -1px;
+    border-radius: 100%;
+    width: 4px;
+    height: 4px;
+    background: radial-gradient(circle at 2px 2px, red, rgb(0, 0, 0));
+}
