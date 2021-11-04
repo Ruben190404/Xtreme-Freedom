@@ -80,6 +80,24 @@ body{
     left: 25px;
 }
 
+#button_en{
+    position: fixed;
+    top: 1px;
+    right: 25px;
+    margin-right: 5px;
+    color: rgb(255, 255, 113);
+    text-align: center;
+}
+
+#button_nl{
+    position: fixed;
+    top: 1px;
+    right: 25px;
+    margin-right: 5px;
+    color: rgb(255, 255, 113);
+    text-align: center;
+}
+
 footer {
     position: fixed;
     bottom: 0;
