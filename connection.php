@@ -27,7 +27,7 @@
             </li>
         </ul>
         <div id="logo">
-            <a href="index.html"><img src="images/logo.jpg" width="60px" height="44px"></a>
+            <a href="indexen.html"><img src="images/logo.jpg" width="60px" height="44px"></a>
         </div>
         <div id="button_nl">
             <img src="images/button_nl.png" width="35px" height="auto"
@@ -37,22 +37,22 @@
     <main>
         <form name="verbinding" action="mailto: nepaccount@gmail.wow" method="post">
             <fieldset>
-                <input required type="text" id="text" name="naam" placeholder="Volledige Naam..."><br>
-                <input required type="number" id="text" name="tel" placeholder="Telefoonnummer..."><br>
+                <input required type="text" id="text" name="naam" placeholder="Full Name..."><br>
+                <input required type="number" id="text" name="tel" placeholder="Phonenumber..."><br>
                 <input required type="email" id="text" name="email" placeholder="Email..."><br>
                 <input required type="text" id="text" name="adres" placeholder="Adres..."><br><br><br>
-                <label for="reizen">Welke reis lijkt u het leukst?</label><br>
-                Reis 1:
+                <label for="reizen">Which adventure would you like to go on?</label><br>
+                Adventure 1:
                 <input type="radio" name="reizen" id="check" value="1"><br>
-                Reis 2:
+                Adventure 2:
                 <input type="radio" name="reizen" id="check" value="2"><br>
-                Reis 3:
+                Adventure 3:
                 <input type="radio" name="reizen" id="check" value="3"><br>
-                Reis 4:
+                Adventure 4:
                 <input type="radio" name="reizen" id="check" value="4"><br>
-                Reis 5:
+                Adventure 5:
                 <input type="radio" name="reizen" id="check" value="4"><br><br>
-                <input type="submit" class="submit" value="Verbinden" onclick="alert('Dankuwel voor het verbinden met ons!')">
+                <input type="submit" class="submit" value="Connect" onclick="alert('Thank you for connecting with us!')">
             </fieldset>
         </form>
         <div id='lttb' onclick="location.href='ltt.html';">.</div>
