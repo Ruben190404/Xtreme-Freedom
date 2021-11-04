@@ -80,6 +80,24 @@ body{
     left: 25px;
 }
 
+#button_en{
+    position: fixed;
+    top: 1px;
+    right: 25px;
+    margin-right: 5px;
+    color: rgb(255, 255, 113);
+    text-align: center;
+}
+
+#button_nl{
+    position: fixed;
+    top: 1px;
+    right: 25px;
+    margin-right: 5px;
+    color: rgb(255, 255, 113);
+    text-align: center;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -190,48 +208,11 @@ main {
     .vakantie {
         width: calc(50% - 34px);
     }
-    .dropdown-content {
-        min-width: none;
-        width: 40px;
-    }
-}
-
-@media screen and (max-width: 781px) {
-    .info {
-        margin-top: 80px;
-    }
 }
 
 @media screen and (max-width: 600px) {
     .vakantie {
         width: 100%;
-    }
-    #center {
-        justify-content: end;
-        margin-right: 3px;
-    }
-    li {
-        border-right: 0px solid #bbb;
-        border-left: 0px solid #bbb;
-    }
-    #logo {
-        display: none;
-    }
-    .links {
-        margin-left: 10px;
-    }
-    #left {
-        max-width: 200px;
-    }
-    .info {
-        margin-top: 80px;
-    }
-    .dropdown-content {
-        min-width: none;
-        width: 20px;
-    }
-    .dropdown-content a {
-        padding: 12px 4px;
     }
 }
 
@@ -281,4 +262,11 @@ input {
 
 label{
     font-size: 20px;
+}
+
+#button_nl:hover {
+    box-shadow: 0 2px 6px 4px hotpink;
+}
+#button_en:hover {
+    box-shadow: 0 2px 6px 4px hotpink;
 }
