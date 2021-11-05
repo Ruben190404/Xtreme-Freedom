@@ -1,9 +1,9 @@
 html{
-min-height: 100%;
+min-height: 100%;                                        /*zorgt dat de background over de hele pagina gaat*/
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%;                                    /*maximale breedte van de foto's*/
 }
 
 ul {
@@ -11,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     top: 0;
-    width: 100%;
+    width: 100%;                                        /**/
     overflow: hidden;
     background-color: #dd1d87;
     justify-content: space-around;
@@ -21,7 +21,7 @@ ul {
 
 li {
     border-right: 1px solid #bbb;
-    border-left: 1px solid #bbb;
+    border-left: 1px solid #bbb;                        /**/
     width: 20%;
     text-align: center;
 }
@@ -30,24 +30,24 @@ li a, .dropbtn {
     display: inline-block;
     color: rgb(255, 255, 113);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px;                                 /**/
     text-decoration: none;
     font-family: 'Crimson Pro', serif;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(128, 0, 0);
+    background-color: rgb(128, 0, 0);                   /**/
 }
 
 li.dropdown {
-    display: inline-block;
+    display: inline-block;                              /**/
 }
 
 .dropdown-content {
     display: none;
     position: fixed;
     background-color: #dd1d87;
-    min-width: 20%;
+    min-width: 20%;                                     /**/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -55,35 +55,34 @@ li.dropdown {
 .dropdown-content a {
     color: rgb(255, 255, 113);
     padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    display: block;                                     /**/
     text-align: center;
     font-family: 'Crimson Pro', serif;
 }
 
-.dropdown-content a:hover {background-color: rgb(128, 0, 0);}
+.dropdown-content a:hover {background-color: rgb(128, 0, 0);}   /**/
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {                     /**/
     display: block;
 }
 
 body{
     background-image: linear-gradient(hotpink,yellow);
-    background-size: auto;
+    background-size: auto;                              /*de achtergrond*/
     background-repeat: no-repeat;
     margin: 0;
 }
 
 #logo{
     position: fixed;
-    top: 1px;
+    top: 1px;                                           /*de positie van het logo*/
     left: 25px;
 }
 
 #button_en{
     position: fixed;
     top: 1px;
-    right: 25px;
+    right: 25px;                                        /*de knop om naar het engels te vertalen*/
     margin-right: 5px;
     color: rgb(255, 255, 113);
     text-align: center;
@@ -92,7 +91,7 @@ body{
 #button_nl{
     position: fixed;
     top: 1px;
-    right: 25px;
+    right: 25px;                                        /*de knop om naar het nederlands te vertalen*/
     margin-right: 0px;
     color: rgb(255, 255, 113);
     text-align: center;
@@ -102,26 +101,26 @@ footer {
     position: fixed;
     bottom: 0;
     float: left;
-    width: 100%;
+    width: 100%;                                        /*de attributen van de footer*/
     background: #dd1d87;
     text-align: center;
     height: 56px;
 }
 
 .links{
-    margin-left: 20px;
+    margin-left: 20px;                                  /*de social media links*/
 }
 
 #left{
     color: rgb(255, 255, 113);
     position: absolute;
-    left: 3px;
+    left: 3px;                                          /*de copyright attributen*/
     top: 8px;
     font-family: 'Crimson Pro', serif;
 }
 #center {
     display: flex;
-    justify-content: center;
+    justify-content: center;                            /*de attributen voor de social media*/
     margin-top: 2px;
 }
 
@@ -129,7 +128,7 @@ footer {
     width: calc(100% - 30px);
     border-style: double;
     border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 60px;                                   /*de attributen voor het algemene informatie blokje*/
     margin-bottom: 10px;
     background: rgba(247, 86, 86, 0.699);
     text-align: center;
@@ -138,39 +137,39 @@ footer {
 main {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;                                    /*dit zorgt ervoor dat alles vloeiend loopt*/
     max-width: 1300px;
     margin: 0 auto;
 }
 
 .info h1 {
     text-align: center;
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Pro', serif;                  /*de attributen van de header bij de algemene informatie*/
     color: rgb(255, 255, 113);
 }
 
 .info p {
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Pro', serif;                  /*de attributen van de text in de algemene informatie*/
     color: rgb(255, 255, 113);
 }
 
 .vakanties {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;                                    /*dit zorgt ervoor dat de vakantie vakjes goed lopen*/
     margin-bottom: 60px;
 }
 
 .vakanties h2 {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px;                                 /*de attributen voor de header van de vakanties*/
     font-family: 'Crimson Pro', serif;
 }
 
 .vakantie p {
     font-family: 'Crimson Pro', serif;
-    margin-left: 5px;
+    margin-left: 5px;                                   /*dit zorgt er voor dat de tekst in de vakantie blokjes er beter uit ziet*/
     margin-right: 5px;
 }
 
@@ -180,7 +179,7 @@ main {
     box-shadow: 0 2px 6px 2px rgba(0,0,0,0.2);
     border-radius: 5px;
     width: calc(33.33% - 34px);
-    height: auto;
+    height: auto;                                       /*de attributen voor de vakantie vakjes*/
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 20px;
@@ -190,18 +189,18 @@ main {
 }
 
 .vakantie:hover {
-    box-shadow: 0 2px 6px 4px hotpink;
+    box-shadow: 0 2px 6px 4px hotpink;                  /*de schaduw die je ziet als je met je muis over de vakanties gaat*/
 }
 
 * {
     cursor: url('images/cursor.png'), default;
-    cursor: url('images/cursor.png'), pointer;/*custom cursor*/
+    cursor: url('images/cursor.png'), pointer;          /*custom cursor*/
 }
 
 #lttb{
     height: 5px;
     width: 5px;
-    position: fixed;
+    position: fixed;                                    /*attributen voor de easter egg knop*/
     bottom: 11%;
     left: 5px;
 }
@@ -209,7 +208,7 @@ main {
 @media screen and (max-width: 980px) {
     .vakantie {
         width: calc(50% - 34px);
-    }
+    }                                                   /**/
     .dropdown-content {
         min-width: none;
         width: 40px;
@@ -221,7 +220,7 @@ main {
         margin-top: 70px;
     }
     #button_en {
-        margin-top: 70px;
+        margin-top: 70px;                               /**/
     }
     #button_nl {
         margin-top: 70px;
@@ -233,7 +232,7 @@ main {
         width: 100%;
     }
     #center {
-        justify-content: end;
+        justify-content: end;                           /**/
         margin-right: 3px;
     }
     li {
@@ -266,7 +265,7 @@ fieldset {
     padding-bottom: 30px;
     margin-top: 150px;
     width: 700px;
-    text-align: center;
+    text-align: center;                                 /*de algemene attributen voor de form*/
     height: auto;
     border-radius: 10px;
     background-color: rgba(247, 86, 86, 0.699);
@@ -276,14 +275,14 @@ fieldset {
 
 input {
     border-radius: 0px;
-    color: rgb(255, 255, 113);
+    color: rgb(255, 255, 113);                          /*de attributen voor de inputs in de form*/
 }
 
 #text{
     background-image: linear-gradient(to left, yellow, hotpink, yellow);
     box-shadow: 2px 2px 2px purple;
     border: 1px solid purple;
-    margin: 2px;
+    margin: 2px;                                        /*de attributen voor de tekstvakken in de form*/
     width: 400px;
     text-align: center;
 }
@@ -291,27 +290,27 @@ input {
 .submit{
     background-image: linear-gradient(to left, yellow, hotpink, yellow);
     box-shadow: 0px 0px 1px black;
-    margin: 2px;
+    margin: 2px;                                        /*de attributen voor de submit knop*/
     width: 200px;
     text-align: center;
 }
 
 .submit:hover{
     background-image: linear-gradient(to left, hotpink, yellow, hotpink);
-    color: hotpink;
+    color: hotpink;                                     /*de animatie die je ziet als je over de submit knop hovert*/
 }
 
 ::placeholder{
-    color: rgb(255, 255, 113);
+    color: rgb(255, 255, 113);                          /*de kleur voor de placeholder tekst*/
 }
 
 label{
-    font-size: 20px;
+    font-size: 20px;                                    /*de tekst groote van de label*/
 }
 
 #button_nl:hover {
-    box-shadow: 0 2px 6px 4px hotpink;
+    box-shadow: 0 2px 6px 4px hotpink;                  /*de schaduw die je ziet als je over de nederlandse vlag hovert*/
 }
 #button_en:hover {
-    box-shadow: 0 2px 6px 4px hotpink;
+    box-shadow: 0 2px 6px 4px hotpink;                  /*de schaduw die je ziet als je over de nederlandse vlag hovert*/
 }
