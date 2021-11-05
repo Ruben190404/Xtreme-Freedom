@@ -1,35 +1,30 @@
 *{
-    cursor: url('https://cdn.discordapp.com/attachments/888145564573782046/902891666371932170/ltt1.png'), auto;
+    cursor: url('https://cdn.discordapp.com/attachments/888145564573782046/902891666371932170/ltt1.png'), auto; /*custom cursor*/
 }
 
 body{
     background: url('images/ltt.png'), #b95d00;
-    background-size: 30px;
+    background-size: 30px;                          /*achtergrond foto's*/
     overflow: hidden;
 }
 
 #head{
-    position: fixed;
+    position: fixed;           /*foto in het midden*/
     margin-left: 28%;
 }
 
-.lttcon{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-}
 #lttdrop{
     background-image: url("images/ltt.png");
     background-repeat: repeat;
     position: relative;
-    top: -1000px;
+    top: -1000px;                               /*de posities en image voor de mooie animatie*/
     animation:drop 4s linear;
     animation-iteration-count: infinite;
     height: 10000vw;
 }
 
 @keyframes drop{
-    0%{transform:translatey(-1000px)}
+    0%{transform:translatey(-1000px)}           /*de mooie animatie*/
     100%{transform:translatey(1000px)}
 }
 
@@ -37,7 +32,7 @@ body{
     position: fixed;
     top: 50px;
     left: -1px;
-    border-radius: 100%;
+    border-radius: 100%;                        /*De knop waar je op moet drukken om de muziek af te spelen*/
     width: 4px;
     height: 4px;
     background: radial-gradient(circle at 2px 2px, red, rgb(0, 0, 0));
